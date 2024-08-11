@@ -15,7 +15,6 @@ import ErrorPage from "./pages/ErrorPage.jsx";
 
 function App() {
   const { user, isCheckingAuth, authCheck } = useAuthStore();
-  console.log("user :",user);
 
   useEffect(() => {
     authCheck();
